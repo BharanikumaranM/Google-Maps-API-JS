@@ -1,6 +1,6 @@
 # Google Maps Project
 
-This project demonstrates how to integrate Google Maps into a web application using the Google Maps JavaScript API. You'll learn how to set up a Google Cloud project, enable the necessary APIs, create an API key, and load the Google Maps API in your web application. We'll also cover how to create a map DOM element, initialize the map, and use various methods provided by the Google Maps API.
+This project demonstrates how to integrate Google Maps into a web application using the Google Maps JavaScript API.
 
 ![alt text](image.png)
 

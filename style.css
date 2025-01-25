@@ -1,8 +1,4 @@
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * SPDX-License-Identifier: Apache-2.0
- */
+
 
 html,
 body {
@@ -93,7 +89,7 @@ h1 {
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  flex: 1; /* Allow the results container to occupy more space */
+  flex: 1;
 }
 
 #results,
