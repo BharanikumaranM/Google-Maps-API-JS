@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Google Maps API using JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Google Maps API using JS</h1>
+    <div class="container">
+      <div>
+        <div id="controls">
+          <input id="country" type="text" placeholder="Enter country">
+          <input id="state" type="text" placeholder="Enter state">
+          <input id="address" type="text" placeholder="Enter address">
+          <button id="get-coordinates">Get Coordinates</button>
+        </div>
+        <div id="current-coordinates">
+          <button id="get-current-coordinates">Get Current Coordinates</button>
+        </div>
+        <div id="place-rating">
+          <input id="place-name" type="text" placeholder="Enter place name">
+          <button id="get-place-rating">Get Place Rating</button>
+        </div>
+      </div>
+      <div id="results-container">
+        <div id="results">
+          <h2>Coordinates</h2>
+        </div>
+        <div id="place-details">
+          <h2>Place Details</h2>
+        </div>
+      </div>
+    </div>
+    <script src="index.js" defer></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2QyoLL1jef7pNfm4NUMjFG28xht1cbk4&callback=initMap&libraries=places&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
